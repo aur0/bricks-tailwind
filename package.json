@@ -1,0 +1,17 @@
+{
+  "name": "bricks-builder-tailwind",
+  "version": "3.4.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-min-css": "npx tailwindcss -i ./src/input.css -o ./dist/tailwind.min.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "Tailwind CSS for Bricks Builder WordPress Theme",
+  "dependencies": {}
+}
